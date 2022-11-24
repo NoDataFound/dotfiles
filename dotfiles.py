@@ -1,7 +1,7 @@
 import os
 import fade
 
-ssctxt= r""" 
+dot= r""" 
 
 
 
@@ -14,7 +14,7 @@ ssctxt= r"""
                           | . || . ||  _|
                           |___||___||_|   
  """
-sectx2 = r"""
+files = r"""
 
 
                                            ______  __ __                   
@@ -27,9 +27,9 @@ sectx2 = r"""
 | ▓▓     | ▓▓ ▓▓\▓▓     \       ▓▓
 \▓▓      \▓▓\▓▓ \▓▓▓▓▓▓▓\▓▓▓▓▓▓▓ 
 """
-fadedssc = fade.water(ssctxt)
-fadedssc2 = fade.purplepink(sectx2)
+fadeddot = fade.water(dot)
+fadedfiles = fade.purplepink(files)
 
-for pair in zip(*map(str.splitlines, (fadedssc, fadedssc2))): 
+for pair in zip(*map(str.splitlines, (dot, files))): 
   print(*pair)
 print(' '*71+"\033[36mv0.1")
