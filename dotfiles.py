@@ -1,4 +1,3 @@
-import os
 import fade
 
 dot= r""" 
