@@ -19,9 +19,12 @@ Updates macOS system software, Homebrew packages, and `pip` itself.
 
    echo "Updating pip..."
    pip3 install --upgrade pip```
-   
-4. Save your script. Since you are using nano, press `Ctrl+O`, `Enter`, then `Ctrl+X` to exit.
 
+#### Note: The above script is running these things:
+![Screenshot 2024-04-01 at 1 10 12 PM](https://github.com/NoDataFound/dotfiles/assets/3261849/4252df45-cb7b-46a2-9758-4b1f3614a44a)
+
+
+4. Save your script. Since you are using nano, press `Ctrl+O`, `Enter`, then `Ctrl+X` to exit.
 
 Make the script executable: `chmod +x up2date.sh`.
 
